@@ -1,0 +1,26 @@
+//Create a Document object
+            Document doc = new Document();
+            var _file_excel = @"C:\Users\DTP\Downloads\SW6_CUOIKY_HK1.doc";
+            //Load a Word file
+            doc.LoadFromFile(_file_excel);
+            //Convert the text in Word line by line into a txt file
+            doc.SaveToTxt("result.text", Encoding.UTF8);
+            //Read all lines of txt file
+            string[] lines = File.ReadAllLines("result.text", System.Text.Encoding.Default);
+            var _line_Lenght = lines.Length;
+            StringBuilder _strb = new StringBuilder();
+            
+
+            for (int i = _file_excel.Contains("SW6_CUOIKY_HK1") ? 29 : 5; i < _line_Lenght; i++)
+            {
+                if (lines[i].Trim().ToUpper().Contains("THE END"))
+                    break;
+                if (!lines[i].Trim().Contains("A.") && !lines[i].Trim().Contains("B.") && !lines[i].Trim().Contains("C.") && !lines[i].Trim().Contains("D."))
+                    _strb.AppendLine(lines[i]);
+            }
+            Console.WriteLine(_strb.ToString());
+
+
+ wmic product where name="EDU HOME" call uninstall
+
+

@@ -1,0 +1,45 @@
+https://dtp.izimessage.com/widget/js/axios.min.js?v=76
+
+
+cwebp -q 50 images/APIvietguys.png -o images/flower1.webp
+
+
+const main = async () => {
+    var _file_excel = 'SW6_15p_1_HK1.docx';
+    var mammoth = require("mammoth");
+    mammoth.extractRawText({path: "./someOtherUrl/SW6_15p_1_HK1.docx"})
+        .then(function(result){
+            var text = result.value.split('/n'); // The raw text 
+    
+            //this prints all the data of docx file
+            console.log(text);
+            const _strb = new StringBuilder();
+            const _check_file = _file_excel.includes("SW6_CUOIKY_HK1") ? 29 : 5;
+            const _Lenght_array = text.length;
+            for (var i = _check_file; i < _Lenght_array ; i++) {
+                //this prints all the data char by char in separate lines
+                console.log(text[i]);
+                if (text[i].trim.ToUpper().Contains("THE END"))
+                    break;
+                if (!text[i].trim.Contains("A.") && !text[i].Trim().Contains("B.") && !text[i].Trim().Contains("C.") && !text[i].Trim().Contains("D."))
+                    _strb.append(text[i]);
+            }
+            console.log(_strb.toString());
+            var messages = result.messages;
+        })
+        .done();
+        /* Read file excel to text from Url
+        const response = await superagent.get(url)
+            .parse(superagent.parse.image)
+            .buffer();
+
+        const buffer = response.body;
+
+        const text = (await mammoth.extractRawText({ buffer })).value;
+        const lines = text.split('\n');
+        console.log('okay baby');
+        console.log(lines);
+        */
+};
+
+python brute_md5.py -p 9743a66f914cc249efca164485a19c5c -w passwd.txt

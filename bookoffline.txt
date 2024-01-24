@@ -1,0 +1,4 @@
+bookoffline
+*DD614DEA0419B025444A46BA2AB6AFAA83DAC643
+
+UPDATE mysql.user SET Password=PASSWORD("Dtp@123") WHERE USER="root" AND Host="localhost";

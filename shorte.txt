@@ -1,0 +1,8 @@
+destyy.com/ealplQ
+corneey.com/ead0XE
+corneey.com/ead0KO
+corneey.com/ead0FC
+corneey.com/ead0RC
+
+
+--cert C:\Users\Acer\Downloads\www_i-course_vn\www_i-course_vn.pem --key C:\Users\Acer\Downloads\www_i-course_vn\www_i-course_vn.pem --passphrase 'Dtp@123' --out C:\Users\Acer\Downloads\www_i-course_vn\cert.pfx
