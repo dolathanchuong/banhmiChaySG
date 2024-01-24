@@ -1,0 +1,62 @@
+Commanline :
+dotnet new webapi -n JWTDemo.Server
+dotnet new blazorwasm -n JWTDemo.Client
+dotnet ef migrations add Initials -o Data/Migrations
+dotnet tool update --global dotnet-ef
+netstat -ano | findstr :5140 --Find port
+ taskkill /F /PID 17844 --Kill Port
+---------------
+https://www.youtube.com/watch?v=67DtZbPYNKg
+
+https://www.youtube.com/@Matlus/videos
+https://github.com/matlus
+
+https://www.youtube.com/watch?v=y64L-3HKuP0
+https://www.youtube.com/watch?v=PzrTiz_NRKA
+
+https://learn.microsoft.com/en-us/dotnet/core/extensions/workers?pivots=dotnet-7-0
+https://learn.microsoft.com/en-us/dotnet/core/extensions/windows-service?pivots=dotnet-7-0
+
+
+https://www.youtube.com/watch?v=DgVjEo3OGBI&t=123s
+https://youtu.be/DgVjEo3OGBI?t=9326
+https://youtu.be/DgVjEo3OGBI?t=9767
+https://youtu.be/DgVjEo3OGBI?t=17161
+
+https://youtu.be/HuN94qNwQmM?t=7205
+https://youtu.be/HuN94qNwQmM?t=10102
+https://youtu.be/agIJTnpfFGA?t=5336
+
+
+https://www.youtube.com/playlist?list=PLpSmZmoBaROZJeOJNkA9L0qCGd8UX6Bup
+https://youtu.be/DgVjEo3OGBI?t=20496
+https://youtu.be/DgVjEo3OGBI?t=21532
+https://youtu.be/DgVjEo3OGBI?t=31209
+https://www.youtube.com/@procademy/playlists
+https://netcore.vn/bai-viet/aspnet-core-nang-cao/su-lien-quan-giua-middleware-va-request-pipeline-trong-aspnet-core
+https://jamesdefabia.github.io/docs/reference/
+
+
+--JAVA
+https://youtu.be/aCZmPgBHc88
+https://www.javaguides.net/2021/10/spring-boot-crud-rest-api-project-using-IntelliJ-IDEA.html
+---
+https://viblo.asia/p/8-diem-so-sanh-giua-mysql-va-postgresql-de-chon-lua-cai-nao-phu-hop-hon-OeVKB4NElkW
+https://aws.amazon.com/vi/compare/the-difference-between-mysql-vs-postgresql/
+---
+https://mkyong.com/spring-boot/spring-boot-spring-data-jpa-postgresql/
+--
+https://shareprogramming.net/huong-dan-su-dung-h2-database-trong-spring-boot/
+--
+https://github.com/eazybytes/microservices
+--
+https://www.javaguides.net/2022/04/search-rest-api-using-spring-boot.html
+https://www.javaguides.net/2020/04/spring-boot-file-upload-download-rest-api-example.html
+https://www.javaguides.net/p/spring-boot-tutorial.html
+https://www.javaguides.net/2021/10/spring-boot-crud-rest-api-project-using-IntelliJ-IDEA.html
+https://www.javaguides.net/p/rest-api-tutorial.html
+https://www.javaguides.net/2020/04/spring-boot-h2-jpa-hibernate-restful-crud-api-tutorial.html
+
+-- Docker :
+https://docs.docker.com/engine/reference/commandline/rmi/
+https://www.youtube.com/watch?v=HT3TgUABtc8
