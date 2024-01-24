@@ -1,0 +1,5 @@
+https://stackoverflow.com/questions/54714070/how-to-speed-up-linq-where
+https://social.msdn.microsoft.com/Forums/en-US/4276ecd2-31ff-4cd0-82ea-7a22ce25308b/incredibly-slow-performance-on-simple-linq-query?forum=linqtosql
+https://stackoverflow.com/questions/33498032/optimizing-a-slow-linq-query
+
+https://timdeschryver.dev/blog/make-your-csharp-applications-faster-with-linq-joins

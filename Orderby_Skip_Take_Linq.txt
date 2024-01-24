@@ -1,0 +1,5 @@
+var list = (from usr in dbase.userinfoes
+            select usr).OrderBy(i => i.UserID).Skip(skip).Take(take).ToList();
+
+userlist = (from i in list
+            select new UserInfo(i, true)).ToList();

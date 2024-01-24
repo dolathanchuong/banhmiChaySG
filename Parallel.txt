@@ -1,0 +1,2 @@
+https://chrisbitting.com/2016/05/04/datatable-row-loop-csharp-performance-testing-linq-vs-select-vs-parallel-vs-for/#winner
+https://chrisbitting.com/2016/05/04/datatable-row-loop-csharp-performance-testing-linq-vs-select-vs-parallel-vs-for/

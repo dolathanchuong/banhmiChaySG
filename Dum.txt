@@ -1,0 +1,4 @@
+https://www.dotnettricks.com/learn/entityframework/tips-to-improve-entity-framework-performance
+https://www.albahari.com/nutshell/speedinguplinqtosql.aspx
+https://www.albahari.com/nutshell/code.aspx
+https://visualstudiomagazine.com/articles/2010/06/24/five-tips-linq-to-sql.aspx
