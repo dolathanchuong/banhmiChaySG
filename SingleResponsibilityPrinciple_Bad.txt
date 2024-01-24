@@ -1,0 +1,22 @@
+class UserSettings
+{
+    private User User;
+
+    public UserSettings(User user)
+    {
+        User = user;
+    }
+
+    public void ChangeSettings(Settings settings)
+    {
+        if (verifyCredentials())
+        {
+            // ...
+        }
+    }
+
+    private bool VerifyCredentials()
+    {
+        // ...
+    }
+}
